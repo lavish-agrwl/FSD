@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    font-size: 1.4rem;
+    font-family: Arial, sans-serif;
+}
+
+/* a[target="_top"] {
+    background-color: yellow;
+}
+
+.class1,
+.class2 {
+    background-color: yellow;
+}
+
+.class1 .class2 {
+    background-color: red;
+}
+
+.class1>.class2 {
+    background: blue;
+}
+
+.class1.class2 {
+    background-color: green;
+} */
+
+/* div[data-color="red"] {
+    background-color: red;
+} */
+
+/* div[class $= foo] {
+    background-color: yellow;
+} */
+
+/* div span {
+    background-color: yellow;
+}
+
+div>span {
+    background-color: red;
+}
+
+div~span {
+    background-color: blue;
+}
+
+div+span {
+    background-color: green;
+} */
+
+/* .warning {
+    background-color: red;
+}
+.important.warning {
+    background-color: blue;
+}
+.important {
+    background-color: yellow;
+}
+
+p:nth-child(2){
+    background-color: yellow;
+} */
+
+input:in-range{
+    background-color: yellow;
+}
