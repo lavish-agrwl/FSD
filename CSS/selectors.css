@@ -1,10 +1,12 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     font-size: 1.4rem;
     font-family: Arial, sans-serif;
 }
 
-/* a[target="_top"] {
+a[target="_top"] {
     background-color: yellow;
 }
 
@@ -23,17 +25,17 @@
 
 .class1.class2 {
     background-color: green;
-} */
+}
 
-/* div[data-color="red"] {
+div[data-color="red"] {
     background-color: red;
-} */
+}
 
-/* div[class $= foo] {
+div[class $= foo] {
     background-color: yellow;
-} */
+}
 
-/* div span {
+div span {
     background-color: yellow;
 }
 
@@ -47,9 +49,9 @@ div~span {
 
 div+span {
     background-color: green;
-} */
+}
 
-/* .warning {
+.warning {
     background-color: red;
 }
 .important.warning {
@@ -61,7 +63,7 @@ div+span {
 
 p:nth-child(2){
     background-color: yellow;
-} */
+}
 
 input:in-range{
     background-color: yellow;
