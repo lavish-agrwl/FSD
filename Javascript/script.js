@@ -68,5 +68,25 @@ function sayHello() {
     // }
 
     // alert('Hello World');
-    
+
+
+    // let myCollection = [1, 2, 3, 4, 5, "Hello", "World", true, false, null, undefined, function(){}];
+    // console.log(myCollection)
+
+    // function information(firstName, lastName, language)
+    // {
+      // if(arguments.length === 3)
+      // {
+        // console.log(firstName);
+        // console.log(lastName);
+        // console.log(language);
+      // }
+    // }
+    // information('John', 'Doe', 'English');
+    // information('John', 'Doe');
+    // information('John');
+
+    // confirm('Are you sure?')? alert('User wants to continue.') : alert('User wants to Cancel');
+    // alert(prompt('What is your name?','Your name here'));
+    document.write(prompt('What is your name?','Your name here'));
 }
