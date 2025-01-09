@@ -88,5 +88,5 @@ function sayHello() {
 
     // confirm('Are you sure?')? alert('User wants to continue.') : alert('User wants to Cancel');
     // alert(prompt('What is your name?','Your name here'));
-    document.write(prompt('What is your name?','Your name here'));
+    // document.write(prompt('What is your name?','Your name here'));
 }
