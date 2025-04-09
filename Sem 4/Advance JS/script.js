@@ -53,9 +53,9 @@
 // console.log(message);
 // console.log(message2);
 
-function addTwoNumbers(x, y) {
-    return(x + y);
-}
+// function addTwoNumbers(x, y) {
+//     return(x + y);
+// }
 // let arr = [5, 10];
 // addTwoNumbers(...arr);
 
@@ -72,9 +72,78 @@ function addTwoNumbers(x, y) {
 // someFunction("Hello", "World", "this", "is", "a", "test");
 // someFunction();
 
-let resultArr = [];
-for (let i = 0; i < 10; i++) {
-    let result = addTwoNumbers(i, 2*i);
-    resultArr.push(result);
-}
-console.log(resultArr);
+// let resultArr = [];
+// for (let i = 0; i < 10; i++) {
+//     let result = addTwoNumbers(i, 2*i);
+//     resultArr.push(result);
+// }
+// console.log(resultArr);
+
+
+// function addTwoNumbers(x,y){
+//     return x+y; }
+// let resultArr=[];
+// for(let i=0; i<10; i++){
+//     let result=addTwoNumbers(i,2*i);
+//     resultArr.push(result);}
+
+// console.log(resultArr);
+
+// RETURNING WITH ARROW FUNCTION
+
+// let addTwoNumbers=(x,y) => x+y;
+// let result = addTwoNumbers(5,3);
+// console.log(result);
+
+// let addTwoNumbers=(x,y) => {
+//     console.log("Adding.....");
+//     return x+y;
+// }
+
+
+// function testAvailablity(x) {
+//     console.log("Available here", x);
+// }
+// testAvailablity("Hello World!");
+// console.log("Not available here", x);
+
+
+// function testAvailability() {
+//     let x = "Hello World!";
+//     console.log("Available here", x);
+// }
+// testAvailability();
+// console.log("Not available here", x);
+
+
+// function doingStuff() {
+//     if (true) {
+//         let x = "Hello World!";
+//     }
+//     console.log(x);
+// }
+// doingStuff();
+// function doingStuff() {
+//     if (true) {
+//         var x = "Hello World!";
+//     }
+//     console.log(x);
+// }
+// doingStuff();
+// function doingStuff() {
+//     if (true) {
+//         const x = "Hello World!";
+//     }
+//     console.log(x);
+// }
+// doingStuff();
+
+
+// let globalVar = "I am a global variable";
+// console.log(globalVar);
+// function testScope() {
+//     console.log(globalVar);
+// }
+// testScope();
+
+
