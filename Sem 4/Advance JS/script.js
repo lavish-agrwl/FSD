@@ -146,4 +146,76 @@
 // }
 // testScope();
 
+// (function () {
+//     console.log("IIFE");
+// })();
 
+// (() => {
+//     console.log("IIFE Arrow Function");
+
+// })();
+
+// function logRecuursive(nr)
+// {
+//     console.log("starting function", nr);
+//     if (nr > 0)
+//     {
+//         logRecuursive(nr - 1);
+//     } else {
+//         console.log("Recursion ended");
+//     }
+//     console.log("ending function", nr);
+// }
+
+// logRecuursive(3)
+
+// function outerFunction(nr){
+//     console.log("Outer function");
+//     innerFunction(nr);
+//     function innerFunction(x){
+//         let z = 10;
+//     }
+//     console.log("Not Accesible", z)
+// }
+// outerFunction()
+
+
+// doFlexibleStuff(functionVariable());
+
+// let youGotThis = function() {
+//     console.log("You got this!");
+// }
+// setTimeout(youGotThis, 2000);
+
+// setInterval(youGotThis, 2000);
+
+// let val = 10;
+// function tester(val) {
+//     val += 10;
+//     if(val  < 100) {
+//         return tester(val);
+//     }
+//     return val;
+// }
+// val = tester(val);
+// console.log(val);
+
+// let testFunction = function() {
+//     console.log("Hello World!");
+// }();
+// testFunction()
+
+
+
+// (function(firstName) {
+//     console.log("Hello " + firstName);
+// })( "John");
+
+// let test = (num) => num + 5;
+// console.log(test(10));
+
+// var addFive1 = function addFive1(num) {
+//     return num + 2;
+// };
+// let addFive2 = (num) => num + 2;
+// console.log(addFive1(14));
