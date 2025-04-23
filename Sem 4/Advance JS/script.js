@@ -306,7 +306,7 @@ class Person{
     }
 }
 Person.prototype.introduce = function() {
-    console.log("I am " + this.firstName + " " + this.lastName);
+    console.log("Hi, I am " + this.firstName + " " + this.lastName);
 }
 
 Person.prototype.favoriteColor = "Blue";
@@ -314,3 +314,5 @@ Person.prototype.favoriteColor = "Blue";
 let person1 = new Person("John", "Doe");
 person1.introduce();
 console.log(person1.favoriteColor);
+
+
